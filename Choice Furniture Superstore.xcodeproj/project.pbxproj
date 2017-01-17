@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84123DB91E2B5BFF00B6C6C4 /* background screenV2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84123DB81E2B5BFF00B6C6C4 /* background screenV2.jpg */; };
+		841ED2911E2559A8000EA8FC /* VcSubCatg.m in Sources */ = {isa = PBXBuildFile; fileRef = 841ED2901E2559A8000EA8FC /* VcSubCatg.m */; };
+		841ED2941E256478000EA8FC /* VCSubChildCatg.m in Sources */ = {isa = PBXBuildFile; fileRef = 841ED2931E256478000EA8FC /* VCSubChildCatg.m */; };
+		8420229C1E26ACA80023810E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420229B1E26ACA80023810E /* Reachability.m */; };
+		8420229F1E26B2F00023810E /* VcMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420229E1E26B2F00023810E /* VcMainController.m */; };
+		842BB5461E2A59E60093FF13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842BB5451E2A59E60093FF13 /* Images.xcassets */; };
+		84C96F0B1E21057200B34B6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C96F0A1E21057200B34B6C /* main.m */; };
+		84C96F0E1E21057200B34B6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C96F0D1E21057200B34B6C /* AppDelegate.m */; };
+		84C96F111E21057200B34B6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C96F101E21057200B34B6C /* ViewController.m */; };
+		84C96F141E21057200B34B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F121E21057200B34B6C /* Main.storyboard */; };
+		84C96F161E21057200B34B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F151E21057200B34B6C /* Assets.xcassets */; };
+		84C96F221E21104E00B34B6C /* background screen 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F211E21104E00B34B6C /* background screen 2.jpg */; };
+		84C96F241E21122500B34B6C /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F231E21122500B34B6C /* icons */; };
+		84C96F261E21122E00B34B6C /* splashscreensforios in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F251E21122E00B34B6C /* splashscreensforios */; };
+		84C96F271E21134A00B34B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F171E21057200B34B6C /* LaunchScreen.storyboard */; };
+		84C96F291E212EEA00B34B6C /* blue_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F281E212EEA00B34B6C /* blue_arrow.png */; };
+		84C96F2C1E212F8600B34B6C /* VcBrands.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C96F2B1E212F8600B34B6C /* VcBrands.m */; };
+		84C96F2F1E21502100B34B6C /* cfs.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C96F2E1E21502100B34B6C /* cfs.m */; };
+		84C96F351E21513F00B34B6C /* VcCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C96F341E21513F00B34B6C /* VcCategory.m */; };
+		84C96F3E1E2152FA00B34B6C /* bathroom_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F371E2152FA00B34B6C /* bathroom_icon.png */; };
+		84C96F3F1E2152FA00B34B6C /* bedrooms_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F381E2152FA00B34B6C /* bedrooms_icon.png */; };
+		84C96F401E2152FA00B34B6C /* dining_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F391E2152FA00B34B6C /* dining_icon.png */; };
+		84C96F411E2152FA00B34B6C /* garden_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F3A1E2152FA00B34B6C /* garden_icon.png */; };
+		84C96F421E2152FA00B34B6C /* home_decor_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F3B1E2152FA00B34B6C /* home_decor_icon.png */; };
+		84C96F431E2152FA00B34B6C /* kitchen_furniture_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F3C1E2152FA00B34B6C /* kitchen_furniture_icon.png */; };
+		84C96F441E2152FA00B34B6C /* living_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F3D1E2152FA00B34B6C /* living_icon.png */; };
+		84C96F461E216F8300B34B6C /* children_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F451E216F8300B34B6C /* children_icon.png */; };
+		84C96F481E216FAD00B34B6C /* home_office_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F471E216FAD00B34B6C /* home_office_icon.png */; };
+		84F58E021E220F2700FC4BF1 /* VcRangeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F58E011E220F2700FC4BF1 /* VcRangeList.m */; };
+		84F58E071E23FC5100FC4BF1 /* blue_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58E031E23FC5100FC4BF1 /* blue_arrow.png */; };
+		84F58E081E23FC5100FC4BF1 /* category_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F58E041E23FC5100FC4BF1 /* category_banner.jpg */; };
+		84F58E091E23FC5100FC4BF1 /* grey_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58E051E23FC5100FC4BF1 /* grey_arrow.png */; };
+		84F58E0A1E23FC5100FC4BF1 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58E061E23FC5100FC4BF1 /* loading.png */; };
+		84F58E0D1E23FCD300FC4BF1 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58E0B1E23FCD300FC4BF1 /* back.png */; };
+		84F58E0E1E23FCD300FC4BF1 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58E0C1E23FCD300FC4BF1 /* search.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84123DB81E2B5BFF00B6C6C4 /* background screenV2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background screenV2.jpg"; sourceTree = "<group>"; };
+		841ED28F1E2559A8000EA8FC /* VcSubCatg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcSubCatg.h; sourceTree = "<group>"; };
+		841ED2901E2559A8000EA8FC /* VcSubCatg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcSubCatg.m; sourceTree = "<group>"; };
+		841ED2921E256478000EA8FC /* VCSubChildCatg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCSubChildCatg.h; sourceTree = "<group>"; };
+		841ED2931E256478000EA8FC /* VCSubChildCatg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCSubChildCatg.m; sourceTree = "<group>"; };
+		8420229A1E26ACA80023810E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8420229B1E26ACA80023810E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8420229D1E26B2F00023810E /* VcMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcMainController.h; sourceTree = "<group>"; };
+		8420229E1E26B2F00023810E /* VcMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcMainController.m; sourceTree = "<group>"; };
+		842BB5451E2A59E60093FF13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84C96F061E21057200B34B6C /* Choice Furniture Superstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Choice Furniture Superstore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C96F0A1E21057200B34B6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C96F0C1E21057200B34B6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84C96F0D1E21057200B34B6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84C96F0F1E21057200B34B6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84C96F101E21057200B34B6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84C96F131E21057200B34B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C96F151E21057200B34B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C96F181E21057200B34B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C96F1A1E21057200B34B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C96F211E21104E00B34B6C /* background screen 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background screen 2.jpg"; sourceTree = "<group>"; };
+		84C96F231E21122500B34B6C /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		84C96F251E21122E00B34B6C /* splashscreensforios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = splashscreensforios; sourceTree = "<group>"; };
+		84C96F281E212EEA00B34B6C /* blue_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_arrow.png; sourceTree = "<group>"; };
+		84C96F2A1E212F8600B34B6C /* VcBrands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcBrands.h; sourceTree = "<group>"; };
+		84C96F2B1E212F8600B34B6C /* VcBrands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcBrands.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84C96F2D1E21502100B34B6C /* cfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cfs.h; sourceTree = "<group>"; };
+		84C96F2E1E21502100B34B6C /* cfs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cfs.m; sourceTree = "<group>"; };
+		84C96F331E21513F00B34B6C /* VcCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcCategory.h; sourceTree = "<group>"; };
+		84C96F341E21513F00B34B6C /* VcCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcCategory.m; sourceTree = "<group>"; };
+		84C96F371E2152FA00B34B6C /* bathroom_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bathroom_icon.png; sourceTree = "<group>"; };
+		84C96F381E2152FA00B34B6C /* bedrooms_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bedrooms_icon.png; sourceTree = "<group>"; };
+		84C96F391E2152FA00B34B6C /* dining_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dining_icon.png; sourceTree = "<group>"; };
+		84C96F3A1E2152FA00B34B6C /* garden_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden_icon.png; sourceTree = "<group>"; };
+		84C96F3B1E2152FA00B34B6C /* home_decor_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_decor_icon.png; sourceTree = "<group>"; };
+		84C96F3C1E2152FA00B34B6C /* kitchen_furniture_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kitchen_furniture_icon.png; sourceTree = "<group>"; };
+		84C96F3D1E2152FA00B34B6C /* living_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = living_icon.png; sourceTree = "<group>"; };
+		84C96F451E216F8300B34B6C /* children_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = children_icon.png; sourceTree = "<group>"; };
+		84C96F471E216FAD00B34B6C /* home_office_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_office_icon.png; sourceTree = "<group>"; };
+		84F58E001E220F2700FC4BF1 /* VcRangeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcRangeList.h; sourceTree = "<group>"; };
+		84F58E011E220F2700FC4BF1 /* VcRangeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcRangeList.m; sourceTree = "<group>"; };
+		84F58E031E23FC5100FC4BF1 /* blue_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_arrow.png; sourceTree = "<group>"; };
+		84F58E041E23FC5100FC4BF1 /* category_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = category_banner.jpg; sourceTree = "<group>"; };
+		84F58E051E23FC5100FC4BF1 /* grey_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey_arrow.png; sourceTree = "<group>"; };
+		84F58E061E23FC5100FC4BF1 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		84F58E0B1E23FCD300FC4BF1 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		84F58E0C1E23FCD300FC4BF1 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C96F031E21057100B34B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C96EFD1E21057100B34B6C = {
+			isa = PBXGroup;
+			children = (
+				84C96F081E21057200B34B6C /* Choice Furniture Superstore */,
+				84C96F071E21057200B34B6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C96F071E21057200B34B6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C96F061E21057200B34B6C /* Choice Furniture Superstore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C96F081E21057200B34B6C /* Choice Furniture Superstore */ = {
+			isa = PBXGroup;
+			children = (
+				84C96F201E21103E00B34B6C /* images */,
+				8420229A1E26ACA80023810E /* Reachability.h */,
+				8420229B1E26ACA80023810E /* Reachability.m */,
+				84C96F0C1E21057200B34B6C /* AppDelegate.h */,
+				84C96F0D1E21057200B34B6C /* AppDelegate.m */,
+				84C96F0F1E21057200B34B6C /* ViewController.h */,
+				84C96F101E21057200B34B6C /* ViewController.m */,
+				84C96F121E21057200B34B6C /* Main.storyboard */,
+				84C96F151E21057200B34B6C /* Assets.xcassets */,
+				84C96F171E21057200B34B6C /* LaunchScreen.storyboard */,
+				84C96F1A1E21057200B34B6C /* Info.plist */,
+				84C96F091E21057200B34B6C /* Supporting Files */,
+				84C96F2A1E212F8600B34B6C /* VcBrands.h */,
+				8420229D1E26B2F00023810E /* VcMainController.h */,
+				8420229E1E26B2F00023810E /* VcMainController.m */,
+				84C96F2B1E212F8600B34B6C /* VcBrands.m */,
+				84C96F2D1E21502100B34B6C /* cfs.h */,
+				84C96F2E1E21502100B34B6C /* cfs.m */,
+				84C96F331E21513F00B34B6C /* VcCategory.h */,
+				84C96F341E21513F00B34B6C /* VcCategory.m */,
+				84F58E001E220F2700FC4BF1 /* VcRangeList.h */,
+				84F58E011E220F2700FC4BF1 /* VcRangeList.m */,
+				841ED28F1E2559A8000EA8FC /* VcSubCatg.h */,
+				841ED2901E2559A8000EA8FC /* VcSubCatg.m */,
+				841ED2921E256478000EA8FC /* VCSubChildCatg.h */,
+				841ED2931E256478000EA8FC /* VCSubChildCatg.m */,
+				842BB5451E2A59E60093FF13 /* Images.xcassets */,
+			);
+			path = "Choice Furniture Superstore";
+			sourceTree = "<group>";
+		};
+		84C96F091E21057200B34B6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C96F0A1E21057200B34B6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C96F201E21103E00B34B6C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84F58E0B1E23FCD300FC4BF1 /* back.png */,
+				84F58E0C1E23FCD300FC4BF1 /* search.png */,
+				84F58E031E23FC5100FC4BF1 /* blue_arrow.png */,
+				84F58E041E23FC5100FC4BF1 /* category_banner.jpg */,
+				84F58E051E23FC5100FC4BF1 /* grey_arrow.png */,
+				84F58E061E23FC5100FC4BF1 /* loading.png */,
+				84C96F361E2152C100B34B6C /* categories */,
+				84C96F251E21122E00B34B6C /* splashscreensforios */,
+				84C96F231E21122500B34B6C /* icons */,
+				84C96F211E21104E00B34B6C /* background screen 2.jpg */,
+				84123DB81E2B5BFF00B6C6C4 /* background screenV2.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		84C96F361E2152C100B34B6C /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				84C96F371E2152FA00B34B6C /* bathroom_icon.png */,
+				84C96F381E2152FA00B34B6C /* bedrooms_icon.png */,
+				84C96F391E2152FA00B34B6C /* dining_icon.png */,
+				84C96F3A1E2152FA00B34B6C /* garden_icon.png */,
+				84C96F3B1E2152FA00B34B6C /* home_decor_icon.png */,
+				84C96F471E216FAD00B34B6C /* home_office_icon.png */,
+				84C96F3C1E2152FA00B34B6C /* kitchen_furniture_icon.png */,
+				84C96F451E216F8300B34B6C /* children_icon.png */,
+				84C96F3D1E2152FA00B34B6C /* living_icon.png */,
+				84C96F281E212EEA00B34B6C /* blue_arrow.png */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C96F051E21057100B34B6C /* Choice Furniture Superstore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C96F1D1E21057200B34B6C /* Build configuration list for PBXNativeTarget "Choice Furniture Superstore" */;
+			buildPhases = (
+				84C96F021E21057100B34B6C /* Sources */,
+				84C96F031E21057100B34B6C /* Frameworks */,
+				84C96F041E21057100B34B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Choice Furniture Superstore";
+			productName = "Choice Furniture Superstore";
+			productReference = 84C96F061E21057200B34B6C /* Choice Furniture Superstore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C96EFE1E21057100B34B6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "CFS Furniture";
+				TargetAttributes = {
+					84C96F051E21057100B34B6C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZZJ9QD55AH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84C96F011E21057100B34B6C /* Build configuration list for PBXProject "Choice Furniture Superstore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C96EFD1E21057100B34B6C;
+			productRefGroup = 84C96F071E21057200B34B6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C96F051E21057100B34B6C /* Choice Furniture Superstore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C96F041E21057100B34B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F58E0A1E23FC5100FC4BF1 /* loading.png in Resources */,
+				842BB5461E2A59E60093FF13 /* Images.xcassets in Resources */,
+				84C96F3E1E2152FA00B34B6C /* bathroom_icon.png in Resources */,
+				84C96F221E21104E00B34B6C /* background screen 2.jpg in Resources */,
+				84C96F261E21122E00B34B6C /* splashscreensforios in Resources */,
+				84C96F481E216FAD00B34B6C /* home_office_icon.png in Resources */,
+				84F58E0E1E23FCD300FC4BF1 /* search.png in Resources */,
+				84C96F421E2152FA00B34B6C /* home_decor_icon.png in Resources */,
+				84F58E081E23FC5100FC4BF1 /* category_banner.jpg in Resources */,
+				84C96F431E2152FA00B34B6C /* kitchen_furniture_icon.png in Resources */,
+				84C96F3F1E2152FA00B34B6C /* bedrooms_icon.png in Resources */,
+				84C96F161E21057200B34B6C /* Assets.xcassets in Resources */,
+				84C96F461E216F8300B34B6C /* children_icon.png in Resources */,
+				84C96F411E2152FA00B34B6C /* garden_icon.png in Resources */,
+				84C96F271E21134A00B34B6C /* LaunchScreen.storyboard in Resources */,
+				84C96F241E21122500B34B6C /* icons in Resources */,
+				84F58E071E23FC5100FC4BF1 /* blue_arrow.png in Resources */,
+				84C96F291E212EEA00B34B6C /* blue_arrow.png in Resources */,
+				84C96F441E2152FA00B34B6C /* living_icon.png in Resources */,
+				84C96F141E21057200B34B6C /* Main.storyboard in Resources */,
+				84C96F401E2152FA00B34B6C /* dining_icon.png in Resources */,
+				84F58E0D1E23FCD300FC4BF1 /* back.png in Resources */,
+				84123DB91E2B5BFF00B6C6C4 /* background screenV2.jpg in Resources */,
+				84F58E091E23FC5100FC4BF1 /* grey_arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C96F021E21057100B34B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841ED2911E2559A8000EA8FC /* VcSubCatg.m in Sources */,
+				84C96F2C1E212F8600B34B6C /* VcBrands.m in Sources */,
+				8420229F1E26B2F00023810E /* VcMainController.m in Sources */,
+				84C96F111E21057200B34B6C /* ViewController.m in Sources */,
+				84C96F351E21513F00B34B6C /* VcCategory.m in Sources */,
+				8420229C1E26ACA80023810E /* Reachability.m in Sources */,
+				84C96F0E1E21057200B34B6C /* AppDelegate.m in Sources */,
+				84C96F2F1E21502100B34B6C /* cfs.m in Sources */,
+				841ED2941E256478000EA8FC /* VCSubChildCatg.m in Sources */,
+				84F58E021E220F2700FC4BF1 /* VcRangeList.m in Sources */,
+				84C96F0B1E21057200B34B6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84C96F121E21057200B34B6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C96F131E21057200B34B6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C96F171E21057200B34B6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C96F181E21057200B34B6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C96F1B1E21057200B34B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C96F1C1E21057200B34B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C96F1E1E21057200B34B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZZJ9QD55AH;
+				INFOPLIST_FILE = "Choice Furniture Superstore/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.choicefurnituresuperstore.Choice-Furniture-Superstore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		84C96F1F1E21057200B34B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZZJ9QD55AH;
+				INFOPLIST_FILE = "Choice Furniture Superstore/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.choicefurnituresuperstore.Choice-Furniture-Superstore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C96F011E21057100B34B6C /* Build configuration list for PBXProject "Choice Furniture Superstore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C96F1B1E21057200B34B6C /* Debug */,
+				84C96F1C1E21057200B34B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C96F1D1E21057200B34B6C /* Build configuration list for PBXNativeTarget "Choice Furniture Superstore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C96F1E1E21057200B34B6C /* Debug */,
+				84C96F1F1E21057200B34B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C96EFE1E21057100B34B6C /* Project object */;
+}
