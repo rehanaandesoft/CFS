@@ -22,7 +22,7 @@
     [cfs setBorder:(UIControl*)_uvBrand];
     [cfs setBorder:(UIControl*)_uvCatg];
     
-    NSLog(@"%ld",(long)[[Reachability reachabilityForInternetConnection]currentReachabilityStatus]);
+   // NSLog(@"%ld",(long)[[Reachability reachabilityForInternetConnection]currentReachabilityStatus]);
     
     
     
@@ -56,8 +56,8 @@
         
          NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:url_string] options:NSDataReadingUncached error:&error   ];
         
-        if(error || !data){
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"No internet connection" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        if(error ){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Could not connect to server" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
             [alert show];
             _btnCatg.userInteractionEnabled=_btnBrand.userInteractionEnabled=NO;
             

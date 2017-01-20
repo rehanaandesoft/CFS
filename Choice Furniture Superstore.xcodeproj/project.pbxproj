@@ -15,7 +15,6 @@
 		842BB5461E2A59E60093FF13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842BB5451E2A59E60093FF13 /* Images.xcassets */; };
 		84C96F0B1E21057200B34B6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C96F0A1E21057200B34B6C /* main.m */; };
 		84C96F0E1E21057200B34B6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C96F0D1E21057200B34B6C /* AppDelegate.m */; };
-		84C96F111E21057200B34B6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C96F101E21057200B34B6C /* ViewController.m */; };
 		84C96F141E21057200B34B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F121E21057200B34B6C /* Main.storyboard */; };
 		84C96F161E21057200B34B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F151E21057200B34B6C /* Assets.xcassets */; };
 		84C96F221E21104E00B34B6C /* background screen 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C96F211E21104E00B34B6C /* background screen 2.jpg */; };
@@ -59,8 +58,6 @@
 		84C96F0A1E21057200B34B6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84C96F0C1E21057200B34B6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84C96F0D1E21057200B34B6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84C96F0F1E21057200B34B6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84C96F101E21057200B34B6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84C96F131E21057200B34B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84C96F151E21057200B34B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C96F181E21057200B34B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -129,8 +126,6 @@
 				8420229B1E26ACA80023810E /* Reachability.m */,
 				84C96F0C1E21057200B34B6C /* AppDelegate.h */,
 				84C96F0D1E21057200B34B6C /* AppDelegate.m */,
-				84C96F0F1E21057200B34B6C /* ViewController.h */,
-				84C96F101E21057200B34B6C /* ViewController.m */,
 				84C96F121E21057200B34B6C /* Main.storyboard */,
 				84C96F151E21057200B34B6C /* Assets.xcassets */,
 				84C96F171E21057200B34B6C /* LaunchScreen.storyboard */,
@@ -294,7 +289,6 @@
 				841ED2911E2559A8000EA8FC /* VcSubCatg.m in Sources */,
 				84C96F2C1E212F8600B34B6C /* VcBrands.m in Sources */,
 				8420229F1E26B2F00023810E /* VcMainController.m in Sources */,
-				84C96F111E21057200B34B6C /* ViewController.m in Sources */,
 				84C96F351E21513F00B34B6C /* VcCategory.m in Sources */,
 				8420229C1E26ACA80023810E /* Reachability.m in Sources */,
 				84C96F0E1E21057200B34B6C /* AppDelegate.m in Sources */,
@@ -429,6 +423,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -446,6 +441,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
