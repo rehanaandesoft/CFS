@@ -23,6 +23,20 @@
       "scale" : "2x"
     },
     {
+      "orientation" : "portrait",
+      "idiom" : "ipad",
+      "filename" : "768 X 1024.png",
+      "extent" : "full-screen",
+      "scale" : "1x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "ipad",
+      "filename" : "1536 X 2048.png",
+      "extent" : "full-screen",
+      "scale" : "2x"
+    },
+    {
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "736h",
@@ -55,6 +69,22 @@
       "filename" : "640 X 1146-1.png",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
+      "scale" : "2x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "ipad",
+      "filename" : "768 X 1024-1.png",
+      "extent" : "full-screen",
+      "minimum-system-version" : "7.0",
+      "scale" : "1x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "ipad",
+      "filename" : "1536 X 2048-2.png",
+      "extent" : "full-screen",
+      "minimum-system-version" : "7.0",
       "scale" : "2x"
     }
   ],
