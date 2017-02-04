@@ -54,10 +54,11 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="488"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vti-fg-jck" userLabel="brnad">
-                                        <rect key="frame" x="30" y="155" width="260" height="50"/>
+                                        <rect key="frame" x="30" y="219" width="260" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I47-MN-24C">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I47-MN-24C">
                                                 <rect key="frame" x="0.0" y="0.0" width="260" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                                 <inset key="titleEdgeInsets" minX="62" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Shop by Brands">
@@ -74,6 +75,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                 <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="DfM-Fv-Eo0"/>
                                                     <constraint firstAttribute="width" constant="50" id="GaA-dB-ydT"/>
                                                 </constraints>
                                                 <state key="normal" image="grey_arrow.png"/>
@@ -83,20 +85,18 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="I47-MN-24C" secondAttribute="trailing" id="5x9-5g-vWL"/>
-                                            <constraint firstAttribute="bottom" secondItem="I47-MN-24C" secondAttribute="bottom" id="Fh3-Om-Ha7"/>
-                                            <constraint firstAttribute="bottom" secondItem="TSc-No-C9A" secondAttribute="bottom" id="GYt-z8-oPx"/>
-                                            <constraint firstItem="TSc-No-C9A" firstAttribute="top" secondItem="Vti-fg-jck" secondAttribute="top" id="LXD-IH-cLU"/>
-                                            <constraint firstItem="I47-MN-24C" firstAttribute="leading" secondItem="Vti-fg-jck" secondAttribute="leading" id="XoC-oU-U0o"/>
-                                            <constraint firstItem="TSc-No-C9A" firstAttribute="leading" secondItem="Vti-fg-jck" secondAttribute="leading" id="ZiP-cS-GYz"/>
-                                            <constraint firstItem="I47-MN-24C" firstAttribute="top" secondItem="Vti-fg-jck" secondAttribute="top" id="deN-fw-4h6"/>
+                                            <constraint firstItem="TSc-No-C9A" firstAttribute="leading" secondItem="Vti-fg-jck" secondAttribute="leading" id="P7r-Xd-hVV"/>
+                                            <constraint firstItem="TSc-No-C9A" firstAttribute="top" secondItem="Vti-fg-jck" secondAttribute="top" id="g43-Oh-jdh"/>
+                                            <constraint firstAttribute="bottom" secondItem="TSc-No-C9A" secondAttribute="bottom" id="gLa-tY-nwe"/>
+                                            <constraint firstAttribute="height" constant="50" id="ng5-uq-4KO"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8vG-0i-5wA" userLabel="catg">
-                                        <rect key="frame" x="30" y="213" width="260" height="50"/>
+                                        <rect key="frame" x="30" y="277" width="260" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJ4-Ah-9lc">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJ4-Ah-9lc">
                                                 <rect key="frame" x="0.0" y="0.0" width="260" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                                 <inset key="titleEdgeInsets" minX="61" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 <state key="normal" title="Shop by Categories">
@@ -113,6 +113,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                 <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="CFn-Rs-z0y"/>
                                                     <constraint firstAttribute="width" constant="50" id="POd-nj-Srg"/>
                                                 </constraints>
                                                 <state key="normal" image="grey_arrow.png"/>
@@ -123,31 +124,25 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="hJ4-Ah-9lc" firstAttribute="leading" secondItem="8vG-0i-5wA" secondAttribute="leading" id="8gS-0U-Pbg"/>
-                                            <constraint firstAttribute="bottom" secondItem="DBU-3J-nUp" secondAttribute="bottom" id="Dy9-mV-gRo"/>
-                                            <constraint firstItem="DBU-3J-nUp" firstAttribute="top" secondItem="8vG-0i-5wA" secondAttribute="top" id="FlL-7n-LMZ"/>
-                                            <constraint firstItem="hJ4-Ah-9lc" firstAttribute="top" secondItem="8vG-0i-5wA" secondAttribute="top" id="M11-mL-nvM"/>
-                                            <constraint firstItem="DBU-3J-nUp" firstAttribute="leading" secondItem="8vG-0i-5wA" secondAttribute="leading" id="Ws6-sh-xIV"/>
-                                            <constraint firstAttribute="bottom" secondItem="hJ4-Ah-9lc" secondAttribute="bottom" id="vqF-Xb-AjP"/>
-                                            <constraint firstAttribute="trailing" secondItem="hJ4-Ah-9lc" secondAttribute="trailing" id="ygx-7J-VbE"/>
+                                            <constraint firstAttribute="height" constant="50" id="2CZ-J3-YWo"/>
+                                            <constraint firstItem="DBU-3J-nUp" firstAttribute="leading" secondItem="8vG-0i-5wA" secondAttribute="leading" id="SuW-By-9o6"/>
+                                            <constraint firstItem="DBU-3J-nUp" firstAttribute="top" secondItem="8vG-0i-5wA" secondAttribute="top" id="UkS-qJ-yd8"/>
+                                            <constraint firstAttribute="bottom" secondItem="DBU-3J-nUp" secondAttribute="bottom" id="xHb-4g-jFG"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="8vG-0i-5wA" firstAttribute="leading" secondItem="9Qm-Pd-Q64" secondAttribute="leading" constant="30" id="4yh-El-xRf"/>
-                                    <constraint firstItem="8vG-0i-5wA" firstAttribute="width" secondItem="Vti-fg-jck" secondAttribute="width" id="7ET-Gd-Adt"/>
+                                    <constraint firstAttribute="trailing" secondItem="8vG-0i-5wA" secondAttribute="trailing" constant="30" id="20f-RF-GZb"/>
                                     <constraint firstItem="Wd2-sO-8L8" firstAttribute="top" secondItem="9Qm-Pd-Q64" secondAttribute="top" id="I3k-Bq-NFX"/>
                                     <constraint firstAttribute="trailing" secondItem="Wd2-sO-8L8" secondAttribute="trailing" id="Kt7-Fk-Vgv"/>
                                     <constraint firstAttribute="bottom" secondItem="Wd2-sO-8L8" secondAttribute="bottom" id="Mwc-AH-90Z"/>
-                                    <constraint firstAttribute="trailing" secondItem="Vti-fg-jck" secondAttribute="trailing" constant="30" id="Nv1-VY-1x8"/>
-                                    <constraint firstAttribute="trailing" secondItem="8vG-0i-5wA" secondAttribute="trailing" constant="30" id="P6z-b6-FU1"/>
-                                    <constraint firstItem="Vti-fg-jck" firstAttribute="top" secondItem="9Qm-Pd-Q64" secondAttribute="top" constant="155" id="S2o-V8-hi9"/>
-                                    <constraint firstItem="8vG-0i-5wA" firstAttribute="height" secondItem="Vti-fg-jck" secondAttribute="height" id="Zez-8J-m86"/>
-                                    <constraint firstItem="8vG-0i-5wA" firstAttribute="top" secondItem="Vti-fg-jck" secondAttribute="bottom" constant="8" id="diw-9O-ca1"/>
+                                    <constraint firstItem="Vti-fg-jck" firstAttribute="leading" secondItem="9Qm-Pd-Q64" secondAttribute="leading" constant="30" id="PIg-0W-fwJ"/>
+                                    <constraint firstItem="8vG-0i-5wA" firstAttribute="top" secondItem="Vti-fg-jck" secondAttribute="bottom" constant="8" id="Uco-jx-n8B"/>
+                                    <constraint firstItem="Vti-fg-jck" firstAttribute="centerY" secondItem="9Qm-Pd-Q64" secondAttribute="centerY" id="fej-iU-ET0"/>
                                     <constraint firstItem="Wd2-sO-8L8" firstAttribute="leading" secondItem="9Qm-Pd-Q64" secondAttribute="leading" id="hgU-Bc-rgp"/>
-                                    <constraint firstItem="8vG-0i-5wA" firstAttribute="centerY" secondItem="Vti-fg-jck" secondAttribute="centerY" constant="58" id="qPs-bA-pMl"/>
-                                    <constraint firstItem="Vti-fg-jck" firstAttribute="leading" secondItem="9Qm-Pd-Q64" secondAttribute="leading" constant="30" id="tR8-5o-nd3"/>
+                                    <constraint firstItem="8vG-0i-5wA" firstAttribute="leading" secondItem="9Qm-Pd-Q64" secondAttribute="leading" constant="30" id="lAJ-8b-NLc"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vti-fg-jck" secondAttribute="trailing" constant="30" id="lxn-lC-kdR"/>
                                 </constraints>
                             </view>
                         </subviews>
